@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>OnlyFans | Marcos 🔥</title>
+<meta name="description" content="Contenido exclusivo de Marcos 🔥">
+
+<!-- Vista previa al compartir -->
+<meta property="og:title" content="OnlyFans | Marcos 🔥">
+<meta property="og:description" content="Contenido exclusivo de Marcos. Mirá el perfil 👀">
+<meta property="og:type" content="website">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image" content="https://raw.githubusercontent.com/mateamargo85/onlybroma/main/marcos.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="OnlyFans | Marcos 🔥">
+<meta name="twitter:description" content="Contenido exclusivo de Marcos. Mirá el perfil 👀">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/mateamargo85/onlybroma/main/marcos.jpg">
+
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;background:#0b0b0d;color:#fff;
+  font-family:Arial,Helvetica,sans-serif;
+  min-height:100vh;display:flex;align-items:center;justify-content:center;
+  padding:24px
+}
+.card{
+  width:min(420px,100%);background:#151519;border:1px solid #2a2a30;
+  border-radius:24px;overflow:hidden;box-shadow:0 24px 60px rgba(0,0,0,.45)
+}
+.hero{width:100%;height:420px;object-fit:cover;display:block}
+.profile{padding:22px;text-align:center}
+.brand{font-weight:900;font-size:28px;margin-bottom:6px}
+.handle{color:#aaa;margin-bottom:16px}
+.badge{display:inline-block;background:#1789ff;color:white;padding:7px 11px;
+border-radius:999px;font-size:13px;font-weight:700}
+.teaser{margin:22px 0;background:#0f0f12;border-radius:16px;padding:18px}
+.teaser p{margin:7px 0;color:#d0d0d5}
+.btn{display:block;width:100%;border:0;border-radius:14px;padding:15px;
+background:#1789ff;color:#fff;font-weight:800;font-size:16px;cursor:pointer}
+.reveal{display:none;padding:24px 12px 8px}
+.reveal .big{font-size:38px;font-weight:900;margin-bottom:8px}
+.reveal p{font-size:18px;color:#ddd}
+.small{font-size:11px;color:#777;margin-top:18px}
+</style>
+</head>
+<body>
+<main class="card">
+  <img class="hero" src="marcos.jpg" alt="Marcos en la playa" alt="Marcos en la playa">
+  <section class="profile">
+    <div class="brand">OnlyFans</div>
+    <div class="handle">@marcos_exclusive</div>
+    <span class="badge">Contenido exclusivo 🔥</span>
+
+    <div id="fake" class="teaser">
+      <p>👀 Fotos que no subo a ningún lado</p>
+      <p>🔒 Acceso solo para suscriptores</p>
+      <p>🔥 Nuevo contenido disponible</p>
+    </div>
+
+    <button id="btn" class="btn">Ver contenido exclusivo 🔥</button>
+
+    <div id="reveal" class="reveal">
+      <div class="big">JAJA, CAÍSTE 😂</div>
+      <p>No hay OnlyFans. Era una broma.</p>
+      <p>Te mandó Marcos 😎</p>
+    </div>
+
+    <div class="small">Página de broma. No afiliada a OnlyFans.</div>
+  </section>
+</main>
+
+<script>
+document.getElementById('btn').addEventListener('click', function(){
+  document.getElementById('fake').style.display='none';
+  this.style.display='none';
+  document.getElementById('reveal').style.display='block';
+});
+</script>
+</body>
+</html>
